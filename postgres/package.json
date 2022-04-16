@@ -1,0 +1,21 @@
+{
+  "name": "crud-postgres",
+  "version": "1.0.0",
+  "description": "CRUD con PostgreSQL",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "Sebastián Sánchez",
+  "license": "ISC",
+  "dependencies": {
+    "@tinyhttp/app": "^2.0.20",
+    "@tinyhttp/dotenv": "^2.0.2",
+    "@tinyhttp/logger": "^1.3.0",
+    "milliparsec": "^2.2.1",
+    "pg": "^8.7.3"
+  }
+}
